@@ -11,41 +11,46 @@
 We built this game as a classic top-down rpg style puzzler.<br />
 The aim of the game is to reach the Loot Chest first, while avoiding the skeletons.
 
+## Table of contents:
+
 - **[Technologies used](#technologies-used)**
 - **[Goals for this project](#goals-for-this-project)**
-- **[Requirements briefing](#requirements)**
-- **[Features built so far overview with pull requests](#features-built-so-far-overview-with-pull-requests)**
-- **[My git workflow](#my-git-workflow)**
-- **[My agile workflow and trello board](#my-agile-workflow-and-trello-board)**
-- **[create-react-app-docs](#create-react-app)**
+- **[Game Rules](#game-rules)**
+- **[Play Online or Run Locally](#play-online-or-run-locally)
+- **[GIT workflow](#git-workflow)**
+- **[Agile workflow and trello board](#agile-workflow-and-trello-board)**
 
 ## Technologies used
 
-- **[react](./src/containers/Game.js)**  
-- **[redux](./src/reducers/question.js)**  
-- **[redux-thunk](./src/actions/api.js)**  
-- **[jest](./src/tests/questionReducer.test.js)**
-
 The front-end was developed using `React` and `Redux`.<br />
-The back-end was implimented using `Websocket`
+The back-end was implimented using `Express` and `Websocket`.<br />
+
+Please follow the links below to some samples:
+- **[react](./client/src/components/player/movement.js)**  
+- **[redux](./client/src/reducers/player.js)**  
+- **[websocket](./server/index.js)**
+
+## Goals for this project:
+
+- To develop a full stack application using React/Redux and Websockets.
+- Application should be online and have multiplayer capabilities.
+- To develop a kick-ass game!
 
 ## Game Rules
 
-Player 1 - Use arrow keys to navigate around the map.<br />
-Player 2 - Use W A S D to bavigate around the map.<br />
-Avoid the Skeletons! They will only move once a player moves.<br />
-Player will respawn at start when hit by an enemy.<br />
-Plan your moves carefully OR run like a crazed bat out of hell.<br />
-Be the first to claim the LOOT!
+- Player 1 - Use arrow keys to navigate around the map.
+- Player 2 - Use W A S D to bavigate around the map.
+- Avoid the Skeletons! They will only move once a player moves.
+- Player will respawn at start when hit by an enemy.
+- Plan your moves carefully OR run like a crazed bat out of hell.
+- Be the first to claim the LOOT!
 
-## Play Online
+## Play Online or Run Locally
 
-https://kingdom-of-tripolis.netlify.com/
+You can play the game online here: https://kingdom-of-tripolis.netlify.com/
 
-## Run Locally
-
-The `Server` is deployed to Heroku. <br />
-If all dynos are running, you only need to run the `Client`
+Alternatively you can clone the repo and run everything locally.<br />
+The `Server` is deployed to Heroku. If all dynos are running, you only need to run the `Client`.
 
 ```sh
 cd client/
@@ -61,6 +66,33 @@ cd server/
 npm install
 npm run start
 ```
+
+## GIT workflow
+
+In this project we tried to use:
+
+- Good commit messages
+- Well named branches (which have been cleaned up and deleted after presentation)
+
+Here is our branching model for this project:
+
+```
+master (auto deploys) ______________________
+                       \               /
+development             \_____________/- pull request
+                         \           /
+feature/some-feature      \_commits_/- pull request
+```
+
+## Agile workflow and Trello board
+
+During the course of the project we applied some agile principles in the form of:
+
+- Short sprints
+- Daily standups
+- Iterative and Incremental developments. 
+
+We also used Trello to keep track of our project. Check out the board here: https://trello.com/b/NaFITuL1/kingdom-of-tripolis
 
 ## Contributors
 
