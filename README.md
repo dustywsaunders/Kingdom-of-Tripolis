@@ -4,10 +4,29 @@
 
 ![Logo](https://github.com/rogierv-codaisseur/Kingdom-of-Tripolis/blob/master/screenshots/logo.png)
 
+## What this project is about
+
+![](KingdomOfTripolis.gif)
+
 We built this game as a classic top-down rpg style puzzler.<br />
 The aim of the game is to reach the Loot Chest first, while avoiding the skeletons.
 
-The front-end was developed using only `React` and `Redux`.<br />
+- **[Technologies used](#technologies-used)**
+- **[Goals for this project](#goals-for-this-project)**
+- **[Requirements briefing](#requirements)**
+- **[Features built so far overview with pull requests](#features-built-so-far-overview-with-pull-requests)**
+- **[My git workflow](#my-git-workflow)**
+- **[My agile workflow and trello board](#my-agile-workflow-and-trello-board)**
+- **[create-react-app-docs](#create-react-app)**
+
+## Technologies used
+
+- **[react](./src/containers/Game.js)**  
+- **[redux](./src/reducers/question.js)**  
+- **[redux-thunk](./src/actions/api.js)**  
+- **[jest](./src/tests/questionReducer.test.js)**
+
+The front-end was developed using `React` and `Redux`.<br />
 The back-end was implimented using `Websocket`
 
 ## Game Rules
