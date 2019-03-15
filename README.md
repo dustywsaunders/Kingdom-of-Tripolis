@@ -16,7 +16,7 @@ The aim of the game is to reach the Loot Chest first, while avoiding the skeleto
 - **[Technologies used](#technologies-used)**
 - **[Goals for this project](#goals-for-this-project)**
 - **[Game Rules](#game-rules)**
-- **[Play Online or Run Locally](#play-online-or-run-locally)
+- **[Play Online or Run Locally](#play-online-or-run-locally)**
 - **[GIT workflow](#git-workflow)**
 - **[Agile workflow and trello board](#agile-workflow-and-trello-board)**
 
